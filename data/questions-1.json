@@ -1,0 +1,113 @@
+[
+  {
+    "id": "q1",
+    "question": "どのような支援を希望していますか？",
+    "options": [
+      { "label": "就労支援", "value": "work" },
+      { "label": "生活支援", "value": "life" },
+      { "label": "医療支援", "value": "medical" }
+    ]
+  },
+  {
+    "id": "q2",
+    "question": "外国人労働者の雇用予定はありますか？",
+    "options": [
+      { "label": "はい", "value": "foreigner_yes" },
+      { "label": "いいえ", "value": "foreigner_no" }
+    ]
+  },
+  {
+    "id": "q3",
+    "question": "利用者の年齢層は？",
+    "options": [
+      { "label": "18歳未満", "value": "under18" },
+      { "label": "18歳〜64歳", "value": "adult" },
+      { "label": "65歳以上", "value": "senior" }
+    ]
+  },
+  {
+    "id": "q4",
+    "question": "お住まいの地域はどちらですか？",
+    "options": [
+      { "label": "東京都", "value": "tokyo" },
+      { "label": "大阪府", "value": "osaka" },
+      { "label": "その他", "value": "other" }
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "どのような働き方を希望しますか？",
+    "options": [
+      { "label": "正社員", "value": "full-time" },
+      { "label": "パート・アルバイト", "value": "part-time" },
+      { "label": "リモートワーク", "value": "remote" }
+    ]
+  },
+  {
+    "id": "q6",
+    "question": "専門的なスキルや資格をお持ちですか？",
+    "options": [
+      { "label": "はい", "value": "skill_yes" },
+      { "label": "いいえ", "value": "skill_no" }
+    ]
+  },
+  {
+    "id": "q7",
+    "question": "住まいに関する支援は必要ですか？",
+    "options": [
+      { "label": "はい", "value": "housing_yes" },
+      { "label": "いいえ", "value": "housing_no" }
+    ]
+  },
+  {
+    "id": "q8",
+    "question": "ご家族と一緒に支援を受けますか？",
+    "options": [
+      { "label": "はい", "value": "family_yes" },
+      { "label": "いいえ", "value": "family_no" }
+    ]
+  },
+  {
+    "id": "q9",
+    "question": "特に希望する医療ケアはありますか？",
+    "options": [
+      { "label": "精神科・メンタルヘルス", "value": "mental_health" },
+      { "label": "内科・外科", "value": "internal_medicine" },
+      { "label": "特にない", "value": "no_specific" }
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "支援の緊急度はどのくらいですか？",
+    "options": [
+      { "label": "非常に高い", "value": "urgent" },
+      { "label": "普通", "value": "normal" },
+      { "label": "急いでいない", "value": "low_priority" }
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "障害者手帳をお持ちですか？",
+    "options": [
+      { "label": "はい", "value": "disability_yes" },
+      { "label": "いいえ", "value": "disability_no" }
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "現在の収入状況について教えてください。",
+    "options": [
+      { "label": "収入が不安定または低い", "value": "low_income" },
+      { "label": "安定した収入がある", "value": "middle_income" },
+      { "label": "比較的高い収入がある", "value": "high_income" }
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "日本語以外の言語でのサポートは必要ですか？",
+    "options": [
+      { "label": "はい", "value": "lang_support_yes" },
+      { "label": "いいえ", "value": "lang_support_no" }
+    ]
+  }
+]

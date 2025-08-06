@@ -16,14 +16,27 @@ const progressBar = document.getElementById("progress-bar");
 window.onload = async () => {
   try {
     const [questionsRes, recommendationsRes] = await Promise.all([
-      fetch("data/questions.json"),
-      fetch("data/recommendations.json")
+      fetch("data/questions-2.json"),
+      fetch("data/recommendations-2.json")
     ]);
     if (!questionsRes.ok || !recommendationsRes.ok) {
       throw new Error('ファイルが見つからないか、読み込みに失敗しました。');
     }
-    questions = await questionsRes.json();
-    recommendations = await recommendationsRes.json();
+    let questionsData = await questionsRes.json();
+    let recommendationsData = await recommendationsRes.json();
+
+    // データ形式をチェックして、必要であれば整形する
+    if (questionsData.length > 0 && questionsData[0].option_label) {
+      questions = parseQuestions(questionsData);
+    } else {
+      questions = questionsData;
+    }
+
+    if (recommendationsData.length > 0 && recommendationsData[0].condition1) {
+      recommendations = parseRecommendations(recommendationsData);
+    } else {
+      recommendations = recommendationsData;
+    }
 
     startBtn.onclick = startQuiz;
     nextBtn.onclick = nextQuestion;

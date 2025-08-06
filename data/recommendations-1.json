@@ -1,0 +1,42 @@
+[
+  {
+    "conditions": ["work", "foreigner_yes", "adult"],
+    "recommendation": "外国人向け就労支援センターをご案内します。"
+  },
+  {
+    "conditions": ["life", "foreigner_no", "senior"],
+    "recommendation": "高齢者向け生活支援サービスをご利用ください。"
+  },
+  {
+    "conditions": ["medical", "foreigner_no", "under18"],
+    "recommendation": "子ども医療支援プログラムが適しています。"
+  },
+  {
+    "conditions": ["work", "full-time", "skill_yes", "tokyo"],
+    "recommendation": "東京都の高度人材向け就労支援プログラムが利用できます。専門キャリアカウンセラーに相談しましょう。"
+  },
+  {
+    "conditions": ["life", "senior", "housing_yes", "low_income"],
+    "recommendation": "高齢者向け公営住宅の入居支援と、生活保護の申請サポートをご案内します。"
+  },
+  {
+    "conditions": ["medical", "adult", "mental_health", "urgent"],
+    "recommendation": "緊急精神科医療相談窓口にすぐにご連絡ください。24時間対応のカウンセリングも利用可能です。"
+  },
+  {
+    "conditions": ["work", "foreigner_yes", "skill_no", "lang_support_yes"],
+    "recommendation": "日本語学習と職業訓練を同時に受けられる、外国人向け統合サポートセンターが最適です。"
+  },
+  {
+    "conditions": ["life", "under18", "family_yes"],
+    "recommendation": "子育て世帯向け生活支援給付金や、ファミリーサポートセンターの利用が考えられます。"
+  },
+  {
+    "conditions": ["work", "disability_yes", "remote"],
+    "recommendation": "障害者雇用に特化したリモートワーク専門のエージェントをご紹介します。"
+  },
+  {
+    "conditions": ["life", "low_income", "housing_yes"],
+    "recommendation": "収入が不安定な方向けの住宅確保給付金制度の利用を検討しましょう。お近くの自立相談支援機関をご案内します。"
+  }
+]

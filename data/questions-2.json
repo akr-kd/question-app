@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": "energy_level",
+    "question": "Q1. 今のあなたのエネルギーレベルは、例えるなら？",
+    "options": [
+      { "label": "走り出したばかりのスーパーカー", "value": "energy_full" },
+      { "label": "スマホのバッテリー残量30%", "value": "energy_low" },
+      { "label": "充電ケーブルを探す旅の途中", "value": "energy_critical" },
+      { "label": "そもそも電源が入らない", "value": "energy_off" }
+    ]
+  },
+  {
+    "id": "brain_status",
+    "question": "Q2. 今のあなたの脳みその状態は？",
+    "options": [
+      { "label": "冴え渡る名探偵のよう", "value": "brain_sharp" },
+      { "label": "Wi-Fiが弱いカフェにいる感じ", "value": "brain_slow" },
+      { "label": "回転寿司の皿だけが回っている", "value": "brain_empty" },
+      { "label": "エラー404 (Not Found)", "value": "brain_404" }
+    ]
+  },
+  {
+    "id": "desire",
+    "question": "Q3. 今、一番したいことは？",
+    "options": [
+      { "label": "とにかく褒められたい", "value": "desire_praise" },
+      { "label": "美味しいものを無心で食べたい", "value": "desire_eat" },
+      { "label": "誰にも邪魔されず眠りたい", "value": "desire_sleep" },
+      { "label": "すべてを忘れて叫びたい", "value": "desire_scream" }
+    ]
+  },
+  {
+    "id": "weekend",
+    "question": "Q4. 理想の週末とは？",
+    "options": [
+      { "label": "友達と朝までオンラインゲーム", "value": "weekend_game" },
+      { "label": "ペットと一日中ゴロゴロする", "value": "weekend_pet" },
+      { "label": "温泉に浸かって、ひたすら無になる", "value": "weekend_spa" },
+      { "label": "記憶を消して、新しい自分に生まれ変わる", "value": "weekend_reset" }
+    ]
+  }
+]
