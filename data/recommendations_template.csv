@@ -1,0 +1,4 @@
+condition1,condition2,condition3,recommendation
+work,foreigner_yes,adult,外国人向け就労支援センターをご案内します。
+life,foreigner_no,senior,高齢者向け生活支援サービスをご利用ください。
+medical,foreigner_no,under18,子ども医療支援プログラムが適しています。

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>あなたにぴったりの支援診断 (Excel版)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>あなたにおすすめの支援 (Excel版)</h1>
+    
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="startScreen">
+      <p>いくつかの簡単な質問に答えるだけで、あなたに最適なサポートが見つかります。</p>
+      <button id="startBtn">診断をはじめる</button>
+    </div>
+
+    <div id="quiz"></div>
+    
+    <div class="result" id="result"></div>
+    
+    <div>
+      <button id="nextBtn">次へ</button>
+      <button id="restartBtn">最初からはじめる</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

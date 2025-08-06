@@ -1,0 +1,9 @@
+id,question,option_label,option_value
+q1,どのような支援を希望していますか？,就労支援,work
+q1,どのような支援を希望していますか？,生活支援,life
+q1,どのような支援を希望していますか？,医療支援,medical
+q2,外国人労働者の雇用予定はありますか？,はい,foreigner_yes
+q2,外国人労働者の雇用予定はありますか？,いいえ,foreigner_no
+q3,利用者の年齢層は？,18歳未満,under18
+q3,利用者の年齢層は？,18歳〜64歳,adult
+q3,利用者の年齢層は？,65歳以上,senior
